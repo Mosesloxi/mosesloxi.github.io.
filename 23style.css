@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.welcome-container {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1042px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+/* … other rules unchanged … */
+
+.highlight-text {
+  font-family: Poppins;
+  font-weight: 275;
+  font-size: 32px;
+  letter-spacing: -3%;
+  text-align: center;
+}
+
+.selection-header-up h1 {
+  width: 128px;
+  height: 28px;
+  font-weight: 275;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #3C3A47CC;
+}
+
+.selection-header-up h2 {
+  width: 217px;
+  height: 64px;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 64px;
+  letter-spacing: -5px;
+  text-align: center;
+  color: #3C3A47;
+}
+
+.selection-header p {
+  width: 640px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #3C3A47;
+}
+
+.selection-items {
+  width: 1262px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.items1 {
+  width: 378px;
+  /* remove height so it expands naturally */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+  /* drop top unless you add position */
+}

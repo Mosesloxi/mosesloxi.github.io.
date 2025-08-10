@@ -1,0 +1,33 @@
+Learn day one
+.container {
+  width: clamp(
+    300px,      /* never smaller than this (mobile comfort) */
+    80%,        /* your fluid sweet spot */
+    1440px      /* but never exceed your design’s max width */
+  );
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+.welcome-container {
+  background-color: #C4C4C4;
+  
+  /* —— Fluid width with guardrails —— */
+  width: 80%;             /* 80% of its parent (or viewport) */
+  max-width: 1440px;      /* but never wider than your original spec */
+  min-width: 320px;       /* and never squish below a usable minimum */
+  
+  /* —— Flexible height —— */
+  /* Let content define height, but ensure at least full‐viewport coverage */
+  min-height: 100vh;      /* full screen on most devices */
+  padding: 240px 0;       /* your vertical breathing room */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto;         /* center it when there's extra horizontal space */
+  box-sizing: border-box; /* include padding in your width/height math */
+}
