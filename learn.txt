@@ -31,3 +31,40 @@ Learn day one
   margin: 0 auto;         /* center it when there's extra horizontal space */
   box-sizing: border-box; /* include padding in your width/height math */
 }
+
+
+Day two 13th Aug 2025
+.welcome-container {
+    width: 100%; /* Instead of 1,440px */
+    max-width: 1440px; /* Set max width */
+    padding: 15em 1em; /* Use em for padding */
+}
+
+.firstrectangle {
+    max-width: 868px; /* Instead of fixed width */
+    width: 90%; /* Make it responsive */
+}
+
+.slogan {
+    font-size: 3.5rem; /* Instead of 56px */
+    text-align: center; /* For mobile */
+}
+
+.highlight-text {
+    max-width: 787px;
+    width: 90%;
+    font-size: 1.875rem; /* Instead of 30px */
+}
+
+/* Add mobile-first media queries */
+@media (max-width: 768px) {
+    .slogan {
+        font-size: 2.5rem;
+    }
+    .highlight-text {
+        font-size: 1.5rem;
+    }
+    .welcome-container {
+        padding: 7.5em 1em;
+    }
+}
