@@ -95,26 +95,38 @@ body{
     .welcome-container {
         padding: 7.5em 1em;
     }
+}
 
 .bottom-btn1{
-  width: 385px;
-  height: 76px;
+  /* width: 385px;
+  height: 76px; */
+  max-width: 385px;
+  width: 100%;
+  min-height: 76px;
   border: 1px solid #9F7657;
   background-color: white;
 
   display: flex;
   padding: 24px 64px 24px 64px;
-  gap: 10px;
+  gap: 10px; 
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em 4em; */
 
   font-family: Poppins;
   font-size: 18px;
   font-weight: 700px;
   line-height: 28px;
   letter-spacing: 0%;
-  color: #9F7657;
+  color: #9F7657; 
+
+  /* font-family: Poppins;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color:#9F7657; */
 
   transition: 0.2s ease-in-out;
-
   cursor: pointer;
 
 }
@@ -360,6 +372,3 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
-

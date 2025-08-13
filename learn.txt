@@ -68,3 +68,38 @@ Day two 13th Aug 2025
         padding: 7.5em 1em;
     }
 }
+
+
+
+.secondrectangle {
+    max-width: 787px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 8em;
+}
+
+.highlight-text {
+    max-width: 787px;
+    width: 100%;
+    font-family: Poppins;
+    font-weight: 275;
+    font-size: 1.875rem;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: rgba(60, 58, 71, 0.8);
+}
+
+/* Add responsive font sizes */
+@media (max-width: 768px) {
+    .slogan {
+        font-size: 2.5rem;
+    }
+    .highlight-text {
+        font-size: 1.5rem;
+    }
+    .welcome-container {
+        padding: 7.5em 1em;
+    }
+}
+
