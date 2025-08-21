@@ -103,3 +103,33 @@ Day two 13th Aug 2025
     }
 }
 
+No, the CSS property padding: 240px 240px; sets vertical and horizontal padding as follows:
+
+The first value (240px) is for top and bottom padding.
+The second value (240px) is for left and right padding.
+So, padding: 240px 240px; is shorthand for:
+
+If you want to set only top and bottom padding (and not left/right), use:
+
+This sets top and bottom to 240px, and left/right to 0.
+
+
+text-transform: uppercase
+
+
+
+The value on line 405:
+
+is not valid CSS.
+CSS does not support percentage opacity directly in the color property like this.
+
+Correct ways to set white with 80% opacity:
+Option 1: Use RGBA
+
+Option 2: Use HEX with alpha
+
+Recommendation:
+Replace line 405 with one of the above for proper opacity.
+
+
+
