@@ -89,7 +89,7 @@
         <div class=" bottom-text2">Interested in our products? <span>Send us a message</span> or <span>visit our store.</span></div>
 
     </div>
-
+<!-- 
     <div class="contact-us">
         
        <div class="header-contact">
@@ -104,29 +104,69 @@
             <input id="email" name="email" placeholder="  "></input><br><br>
 
             <label for="message">MESSAGE</label><br>
-            <textarea id="message" name="message" rows="4" cols="80" placeholder="  "></textarea><br><br>
+            <textarea id="message" name="message" rows="20" cols="85" placeholder="  "></textarea><br><br>
 
-            <!-- //link to database -->
-            <button> Send message</button>
-
+            <a href="#">
+                <button class="message-btn">Send Messgae</button>
+            </a>
+           
         </form>
         <p>All fields are required. We’ll get back to you as soon as possible.</p>
 
+    </div> -->
+
+    <div class="contact-us">
+  <div class="header-contact">
+    <p>CONTACT US</p>
+    <h2>Let's get in touch</h2>
+  </div>
+
+  <form class="contact-form" novalidate>
+    <div class="field">
+      <label for="name" class="form-label">Name</label>
+      <input id="name" name="name" type="text" placeholder="" class="form-control">
     </div>
 
+    <div class="field">
+      <label for="email" class="form-label">Email Address</label>
+      <input id="email" name="email" type="email" placeholder="" class="form-control">
+    </div>
+
+    <div class="field">
+      <label for="message" class="form-label">Message</label>
+      <textarea id="message" name="message" class="form-control textarea" placeholder=""></textarea>
+    </div>
+
+    <div class="field">
+      <button type="submit" class="message-btn">Send Message</button>
+    </div>
+
+    <p class="note">All fields are required. We’ll get back to you as soon as possible.</p>
+  </form>
+</div>
+
+
     <div class="contact-info">
-        <h1>Visit our store</h1> 
-        <p>(234) 805-0133 322</p> 
-        <p> 7, Second Transformer, Sabon-Gari, Abuja</p>
+        <div class="visit"><p>Visit our store </p></div>
+        <div class="phone-number"><p>(234) 805-0133 322</p></div>
+        <div class="address"><p> 7, Second Transformer, Sabon-Gari, Abuja</p></div>
+        <div class="social-media">
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+
         
     </div>
 
 
     <div class="footer">
-        <div> Logos</div>
-        <div> (c) Copyright 2021 The Chair Company. All rights reserved. Built with WordPress and Elementor.</div>
+        <p>(c) Copyright 2021 The Chair Company. All rights reserved.</p></div>
 
     </div>
+
+     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
 
 </body>
 

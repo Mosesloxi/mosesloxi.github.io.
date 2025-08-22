@@ -132,4 +132,11 @@ Recommendation:
 Replace line 405 with one of the above for proper opacity.
 
 
+Friday 22nd
+Why include *::before and *::after?
+
+Pseudo-elements (::before, ::after) are often used to draw 
+visual UI bits (icons, overlays, decorative lines). If they use padding or borders, you want them to follow the same sizing rules — otherwise small layout bugs and misalignments can appear. Including them prevents those oddities.
+
+
 
